@@ -1,0 +1,88 @@
+.container{
+    display : flex;
+      flex-direction: column;
+     margin-left: 20%;  
+      
+    }
+    .left {
+      float:left; 
+      
+      width:25%;
+      height:100%;
+  }
+  
+  .right{
+    float:right; 
+      
+      width:75%;
+      height:100%;
+      
+  }
+    
+  a{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 40;
+    font-weight: bold;
+    color: white;
+  }
+  
+    
+    img {
+      border-radius: 50%;
+      height: 140px;
+      width : 140px;
+     margin-top: 40%;
+     margin-bottom: 40px;
+     margin-left: 20px;
+     
+    }
+    
+    .loan{
+      color: #f84b09;
+      outline : none;
+      cursor: pointer;
+      border: #494f62;
+      background-color: #494f62;
+      border-radius: 10%;
+      height: 80px;
+      width : 150px;
+      text-align: center;
+      margin-top: 15%;
+      margin-left: 10%;
+    }
+    
+    
+    footer{
+     position : absolute;
+     bottom: 10%;
+     left : 30%;
+      color: gray;
+    }
+    .vl {
+      border-left: 3px solid gray;
+      height: 800px;
+      position: absolute;
+      left : 25%;
+      top: 10px;
+    }
+    table{
+      margin-top: 10%;
+      margin-left: 10%;
+    }
+    td{
+      width: 200px;
+      height: 40px;
+    }
+    
+    
+    
+    
+    
+    body{
+      background-image: url("https://image.shutterstock.com/image-illustration/blue-room-3d-background-260nw-1699534918.jpg");
+      background-position: 50% 30%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: gray;
+    }
